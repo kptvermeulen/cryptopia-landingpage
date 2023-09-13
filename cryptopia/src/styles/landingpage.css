@@ -1,0 +1,82 @@
+#hero {
+  position: relative;
+}
+.backgroundGraphic {
+  width: 100vw;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+.backgroundGraphic img {
+  width: 100%;
+}
+
+#LostWP {
+  position: relative;
+}
+
+.loadingScreen {
+  height: 100vh;
+  width: 100vw;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--secondaryAccent);
+  background: linear-gradient(
+    0deg,
+    var(--secondaryAccent) 0%,
+    var(--secondaryDarkAccent) 100%
+  );
+  z-index: 100;
+  opacity: 0;
+  animation-name: fadeOut;
+  animation-duration: 2s;
+}
+.lSContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.lSContent img {
+  width: 50vw;
+  max-width: 400px;
+  position: absolute;
+  top: 0px;
+}
+.LSLogoWhiteWrapperWrapper {
+  z-index: 105;
+  width: 50vw;
+  max-width: 400px;
+  top: 0px;
+}
+.LSLogoWhiteWrapper {
+  z-index: 105;
+  animation-name: slide;
+  animation-duration: 2s;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+@keyframes slide {
+  0% {
+    width: 0%;
+  }
+  95% {
+    width: 100%;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
