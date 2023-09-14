@@ -19,7 +19,9 @@ export default function Cards() {
               exciting, risky life of a bounty hunter. Pursue any life you want
               the way you please. Welcome to Cryptopia.
             </p>
-            <button className="longBtn">Learn More</button>
+            <a href="https://wiki.cryptopia.com/story/cryptopia/">
+              <button className="longBtn">Learn More</button>
+            </a>
           </div>
         </div>
       </div>

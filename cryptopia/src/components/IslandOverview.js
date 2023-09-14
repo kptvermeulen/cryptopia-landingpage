@@ -1,6 +1,6 @@
 import React from "react";
 
-import iOGraphic from "assets/img/islandOverview.jpg";
+import iOGraphic from "assets/img/islandOverview.png";
 
 export default function IslandOverview() {
   return (

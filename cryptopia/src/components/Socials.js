@@ -8,6 +8,8 @@ import Discord from "assets/svg/discord.svg";
 import X from "assets/svg/X.svg";
 import coinMarketCap from "assets/svg/coinMarketCap.svg";
 
+import CountUp from "react-countup";
+
 export default function Socials() {
   return (
     <div id="Socials">
@@ -16,34 +18,42 @@ export default function Socials() {
           <div className="socialTile">
             <div className="sTContent">
               <img src={FB} alt="facebook" />
-              <div className="STFollowers">55K+</div>
+              <div className="STFollowers">
+                <CountUp start={0} end={55} duration={4} suffix="K+"></CountUp>
+              </div>
               <p>Followers</p>
             </div>
-            <img src={tileA} alt="tile" />
+            <img className="tileBackground" src={tileA} alt="tile" />
           </div>
           <div className="socialTile">
             <div className="sTContent">
               <img src={Discord} alt="discord" />
-              <div className="STFollowers">29K+</div>
-              <p>Followers</p>
+              <div className="STFollowers">
+                <CountUp start={0} end={29} duration={4} suffix="K+"></CountUp>
+              </div>
+              <p>Members</p>
             </div>
-            <img src={tileB} alt="tile" />
+            <img className="tileBackground" src={tileB} alt="tile" />
           </div>
           <div className="socialTile">
             <div className="sTContent">
               <img src={X} alt="X" />
-              <div className="STFollowers">11K+</div>
+              <div className="STFollowers">
+                <CountUp start={0} end={11} duration={4} suffix="K+"></CountUp>
+              </div>
               <p>Followers</p>
             </div>
-            <img src={tileB} alt="tile" />
+            <img className="tileBackground" src={tileB} alt="tile" />
           </div>
           <div className="socialTile">
             <div className="sTContent">
               <img src={coinMarketCap} alt="CoinMarketCap" />
-              <div className="STFollowers">55K+</div>
+              <div className="STFollowers">
+                <CountUp start={0} end={55} duration={4} suffix="K+"></CountUp>
+              </div>
               <p>Followers</p>
             </div>
-            <img src={tileA} alt="tile" />
+            <img className="tileBackground" src={tileA} alt="tile" />
           </div>
         </div>
       </div>

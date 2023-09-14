@@ -1,6 +1,6 @@
 import React from "react";
 
-import wpGraphic from "assets/img/whitepaperGraphic.jpg";
+import wpGraphic from "assets/img/whitepaperGraphic.png";
 
 export default function LostWP() {
   return (
@@ -22,7 +22,9 @@ export default function LostWP() {
               based on the blockchain, a new society would serve as an example
               for all others to follow.
             </p>
-            <button className="longBtn">Download Whitepaper</button>
+            <a href="https://github.com/cryptopia-com/whitepaper-legacy/blob/main/Cryptopia_Legacy__White_Paper.pdf">
+              <button className="longBtn">Download Whitepaper</button>
+            </a>
           </div>
         </div>
       </div>

@@ -19,42 +19,81 @@ export default function Footer() {
           <div className="mainFooterContent">
             <div className="footerLogo">
               <img src={logo} alt="logo" />
-              <p className="footerText">
-                Cryptopia is an independent city-state society based on the
-                blockchain, where citizens can buy, sell, vote, and perform
-                other essential activities using a safe, secure, and transparent
-                system.
-              </p>
-              <div className="flex footerButtons">
+            </div>
+            <p className="footerText">
+              Cryptopia is an independent city-state society based on the
+              blockchain, where citizens can buy, sell, vote, and perform other
+              essential activities using a safe, secure, and transparent system.
+            </p>
+            <div className="flex footerButtons">
+              <a href="https://cryptopia.com/mint/">
                 <button className="accentBtn">Mint</button>
+              </a>
+              <a href="https://discord.com/invite/cryptopia">
                 <button>Join Now</button>
-              </div>
+              </a>
             </div>
           </div>
           <div className="siteMapColumns">
             <div className="sMColumn">
-              <div className="sMTitle">Website</div>
-              <div className="sMItem">Game</div>
-              <div className="sMItem">Wallet</div>
-              <div className="sMItem">Team</div>
-              <div className="sMItem">Roadmap</div>
-              <div className="sMItem">Invest</div>
+              <div className="sMTitle">
+                <div className="VLine"></div>Website
+              </div>
+              <a href="https://cryptopia.com/game/ ">
+                <div className="sMItem">Game</div>
+              </a>
+              <a href="https://cryptopia.com/wallet/">
+                <div className="sMItem">Wallet</div>
+              </a>
+              <a href="https://cryptopia.com/#team">
+                <div className="sMItem">Team</div>
+              </a>
+              <a href="https://cryptopia.com/#roadmap ">
+                <div className="sMItem">Roadmap</div>
+              </a>
+              <a href="https://cryptopia.com/invest/">
+                <div className="sMItem">Invest</div>
+              </a>
             </div>
             <div className="sMColumn">
-              <div className="sMTitle">Cryptopia</div>
-              <div className="sMItem">Whitepaper</div>
-              <div className="sMItem">Support</div>
-              <div className="sMItem">Blog</div>
-              <div className="sMItem">Wiki</div>
-              <div className="sMItem">Community</div>
+              <div className="sMTitle">
+                <div className="VLine"></div>Cryptopia
+              </div>
+              <a href=" https://whitepaper.cryptopia.com/ ">
+                <div className="sMItem">Whitepaper</div>
+              </a>
+              <a href="https://support.cryptopia.com/portal/en/home?_gl=1*k6ppko*_ga*NzM0MDA4MTc5LjE2NzYzNzYxMDc.*_ga_LNE28LM025*MTY5NDQ0MjE3MC4yNzIuMS4xNjk0NDQzMTUyLjUuMC4w ">
+                <div className="sMItem">Support</div>
+              </a>
+              <a href="https://coinmarketcap.com/community/profile/Cryptopia/ ">
+                <div className="sMItem">Blog</div>
+              </a>
+              <a href="https://wiki.cryptopia.com/  ">
+                <div className="sMItem">Wiki</div>
+              </a>
+              <a href="https://discord.com/invite/cryptopia   ">
+                <div className="sMItem">Community</div>
+              </a>
             </div>
             <div className="sMColumn">
-              <div className="sMTitle">Downloads</div>
-              <div className="sMItem">Story White-Paper</div>
-              <div className="sMItem">Logo Pack</div>
-              <div className="sMItem">Art Pack</div>
-              <div className="sMItem">Marketing Plan</div>
-              <div className="sMItem">Roadmap</div>
+              <div className="sMTitle">
+                <div className="VLine"></div>Downloads
+              </div>
+              <a href="https://github.com/cryptopia-com/whitepaper-legacy/blob/main/Cryptopia_Legacy__White_Paper.pdf ">
+                <div className="sMItem">Story White-Paper</div>
+              </a>
+              <a href="https://cryptopia.com/downloads/Logo_pack.zip ">
+                <div className="sMItem">Logo Pack</div>
+              </a>
+              <a href="https://cryptopia.com/downloads/Art_pack.zip ">
+                <div className="sMItem">Art Pack</div>
+              </a>
+              <a href="https://docs.google.com/presentation/d/19hkJT56WvO3Iil5tjOtahcdnRqPje-AcXtR-KXYyDcg/edit#slide=id.g227a3367db3_0_650 ">
+                <div className="sMItem">Marketing Plan</div>
+              </a>
+              <a href="https://sharing.clickup.com/24415847/b/q93k7-827/board">
+                <div className="sMItem">Roadmap</div>
+              </a>
             </div>
           </div>
         </div>
@@ -71,10 +110,16 @@ export default function Footer() {
           </div>
         </div>
         <div className="footerHLine"></div>
-        <div className="footerText">
+        <div className="footerTextCopy">
           <div className="copyrightText">Copyright © 2023 Cryptopia Ltd.</div>
           <div className="terms">
-            <span>Terms</span> / <span>Privacy Policy</span>
+            <a href="https://workdrive.zohopublic.eu/external/b8c2d2a5be8331d9df2be8425933efcf2f1d5b249445b195eb97eae05c11a6d1 ">
+              <span>Terms</span>
+            </a>{" "}
+            /{" "}
+            <a href="https://workdrive.zohopublic.eu/external/b8ef7f04d1d5d75c8191bbcc67a0dc088cd454ae658352c476f244415709954d">
+              <span>Privacy Policy</span>
+            </a>
           </div>
         </div>
       </div>

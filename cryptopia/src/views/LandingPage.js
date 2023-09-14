@@ -17,18 +17,32 @@ import "styles/landingpage.css";
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
 export default function LandingPage() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    loadingScreen();
+  }, []);
+  async function loadingScreen() {
+    await delay(2200);
+    setLoading(false);
+  }
+
   return (
     <>
-      <div className="loadingScreen">
-        <div className="lSContent">
-          <div className="LSLogoWhiteWrapperWrapper">
-            <div className="LSLogoWhiteWrapper">
-              <img src={logo} className="LSLogoWhite" alt="logo" />
+      {loading ? (
+        <div className="loadingScreen">
+          <div className="lSContent">
+            <div className="LSLogoWhiteWrapperWrapper">
+              <div className="LSLogoWhiteWrapper">
+                <img src={logo} className="LSLogoWhite" alt="logo" />
+              </div>
             </div>
+            <img src={logoDark} className="LSLogoDark" alt="logo" />
           </div>
-          <img src={logoDark} className="LSLogoDark" alt="logo" />
         </div>
-      </div>
+      ) : (
+        ""
+      )}
 
       <Hero />
       <LostWP />

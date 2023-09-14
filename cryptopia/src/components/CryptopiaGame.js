@@ -1,7 +1,6 @@
 import React from "react";
 
 import gameGraphicBackground from "assets/img/GameGraphic.png";
-import gameGraphicBackgroundTop from "assets/img/GameGraphicTop.png";
 import gameFrame from "assets/img/gameFrame.png";
 
 export default function CryptopiaGame() {
@@ -18,7 +17,9 @@ export default function CryptopiaGame() {
               exciting, risky life of a bounty hunter. Pursue any life you want
               the way you please. Welcome to Cryptopia.
             </p>
-            <button className="longBtn">Go to game</button>
+            <a href="https://cryptopia.com/game/">
+              <button className="longBtn">Go to game</button>
+            </a>
             <div className="gameGraphic">
               <img src={gameFrame} alt="game preview" />
             </div>
@@ -26,7 +27,6 @@ export default function CryptopiaGame() {
         </div>
       </div>
       <div className="backgroundGraphic">
-        <img src={gameGraphicBackgroundTop} alt="game graphic top" />
         <img src={gameGraphicBackground} alt="game graphic" />
       </div>
     </div>

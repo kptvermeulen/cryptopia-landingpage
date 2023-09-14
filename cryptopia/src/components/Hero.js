@@ -1,6 +1,6 @@
 import React from "react";
 
-import heroGraphic from "assets/img/heroGraphic.jpg";
+import heroGraphic from "assets/img/heroGraphic.png";
 
 import logo from "assets/svg/cryptopiaLogo.svg";
 
@@ -12,21 +12,40 @@ export default function Hero() {
           <img src={logo} alt="logo" />
         </div>
         <div className="headerMenu">
-          <button className="noBtn">Game</button>
-          <button className="noBtn">Wallet</button>
-          <button className="noBtn">Tokenomics</button>
-          <button className="noBtn">Wiki</button>
-          <button className="noBtn">Blog</button>
+          <a href="https://cryptopia.com/game/">
+            <button className="noBtn">Game</button>
+          </a>
+          <a href="https://cryptopia.com/wallet/">
+            <button className="noBtn">Wallet</button>
+          </a>
+          <a href="https://wiki.cryptopia.com/">
+            <button className="noBtn">Wiki</button>
+          </a>
+          <a href="https://coinmarketcap.com/community/profile/Cryptopia/">
+            <button className="noBtn">Blog</button>
+          </a>
+          <a href="https://cryptopia.com/tokenomics/">
+            <button className="noBtn">Tokenomics</button>
+          </a>
         </div>
         <div className="headerButtons">
-          <button className="accentBtn">Mint</button>
-          <button>Join Now</button>
+          <a href="https://cryptopia.com/mint/">
+            <button className="accentBtn">Mint</button>
+          </a>
+          <a href="https://discord.com/invite/cryptopia">
+            <button>
+              <span>Join Now</span>
+            </button>
+          </a>
         </div>
       </div>
       <div className="maxWidthContainer">
         <div className="heroContentWrapper">
           <div className="heroContent">
-            <h1>Embark on a blockchain</h1>
+            <h1>
+              <div className="smallerHeroTitle">Embark on a</div>
+            </h1>
+            <h1>blockchain Adventure</h1>
             <p>
               Cryptopia is an independent city-state society based on the
               blockchain, where citizens can buy, sell, vote, and perform other
@@ -39,13 +58,17 @@ export default function Hero() {
               Cryptopia has become humanity’s haven, the reboot of society the
               world needs to survive.
             </p>
-            <button className="longBtn">Learn More</button>
+            <a href="https://wiki.cryptopia.com/story/cryptopia/">
+              <button className="longBtn">Learn More</button>
+            </a>
           </div>
         </div>
       </div>
 
       <div className="backgroundGraphic">
-        <img src={heroGraphic} alt="hero graphic" />
+        <div className="backgroundGraphicWrapper">
+          <img src={heroGraphic} alt="hero graphic" />
+        </div>
       </div>
     </div>
   );

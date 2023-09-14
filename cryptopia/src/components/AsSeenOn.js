@@ -1,6 +1,6 @@
 import React from "react";
 
-import asoBackground from "assets/img/asSeenOn.jpg";
+import asoBackground from "assets/img/asSeenOn.png";
 import asoTile from "assets/img/asSeenOnTile.png";
 
 import asoLogo1 from "assets/img/aso1.png";
@@ -18,19 +18,19 @@ export default function AsSeenOn() {
               <div className="asoLogo">
                 <img src={asoLogo1} alt="logo" />
               </div>
-              <img src={asoTile} alt="tile" />
+              <img className="asoTileBackground" src={asoTile} alt="tile" />
             </div>
             <div className="ASOTile">
               <div className="asoLogo">
                 <img src={asoLogo2} alt="logo" />
               </div>
-              <img src={asoTile} alt="tile" />
+              <img className="asoTileBackground" src={asoTile} alt="tile" />
             </div>
             <div className="ASOTile">
               <div className="asoLogo">
                 <img src={asoLogo3} alt="logo" />
               </div>
-              <img src={asoTile} alt="tile" />
+              <img className="asoTileBackground" src={asoTile} alt="tile" />
             </div>
           </div>
         </div>
