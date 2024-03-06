@@ -42,10 +42,10 @@ export default function Hero() {
       <div className="maxWidthContainer">
         <div className="heroContentWrapper">
           <div className="heroContent">
-            <h1>
+            <h1 className="fadeOnScroll">
               <div className="smallerHeroTitle">Embark on a</div>
             </h1>
-            <h1>blockchain Adventure</h1>
+            <h1 className="fadeOnScroll">blockchain Adventure</h1>
             <p>
               Cryptopia is an independent city-state society based on the
               blockchain, where citizens can buy, sell, vote, and perform other
@@ -59,7 +59,7 @@ export default function Hero() {
               world needs to survive.
             </p>
             <a href="https://wiki.cryptopia.com/story/cryptopia/">
-              <button className="longBtn">Learn More</button>
+              <button className="longBtn fadeOnScroll">Learn More</button>
             </a>
           </div>
         </div>

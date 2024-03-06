@@ -9,8 +9,8 @@ export default function CryptopiaGame() {
       <div className="maxWidthContainer">
         <div className="center">
           <div className="CGContent">
-            <h2>Cryptopia Game</h2>
-            <p>
+            <h2 className="fadeOnScroll">Cryptopia Game</h2>
+            <p className="fadeOnScroll">
               Explore a world beyond today's society, a place where blockchain
               technology helps build dreams. Become a tycoon or a skilled
               adventurer. Plunder the high seas as a pirate, or live the
@@ -18,7 +18,7 @@ export default function CryptopiaGame() {
               the way you please. Welcome to Cryptopia.
             </p>
             <a href="https://cryptopia.com/game/">
-              <button className="longBtn">Go to game</button>
+              <button className="longBtn fadeOnScroll">Go to game</button>
             </a>
             <div className="gameGraphic">
               <img src={gameFrame} alt="game preview" />

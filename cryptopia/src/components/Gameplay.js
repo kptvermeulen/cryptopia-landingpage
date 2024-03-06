@@ -12,16 +12,16 @@ export default function Gameplay() {
         <div className="center">
           <h2>Gameplay</h2>
           <div className="gameplayGrid">
-            <div className="gameplayItem">
+            <div className="gameplayItem fadeOnScroll">
               <img src={tycoon} alt="tycoon" />
             </div>
-            <div className="gameplayItem">
+            <div className="gameplayItem fadeOnScroll">
               <img src={adventure} alt="adventure" />
             </div>
-            <div className="gameplayItem">
+            <div className="gameplayItem fadeOnScroll">
               <img src={bounty} alt="bounty" />
             </div>
-            <div className="gameplayItem">
+            <div className="gameplayItem fadeOnScroll">
               <img src={pirate} alt="pirate" />
             </div>
           </div>

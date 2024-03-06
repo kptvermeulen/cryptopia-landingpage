@@ -12,27 +12,30 @@ export default function AsSeenOn() {
     <div id="AsSeenOn">
       <div className="maxWidthContainer">
         <div className="center">
-          <h2>As seen on</h2>
+          <h2 className="fadeOnScroll">As seen on</h2>
           <div className="ASOGrid">
-            <div className="ASOTile">
+            <div className="ASOTile fadeOnScroll">
               <div className="asoLogo">
                 <img src={asoLogo1} alt="logo" />
               </div>
               <img className="asoTileBackground" src={asoTile} alt="tile" />
             </div>
-            <div className="ASOTile">
+            <div className="ASOTile fadeOnScroll">
               <div className="asoLogo">
                 <img src={asoLogo2} alt="logo" />
               </div>
               <img className="asoTileBackground" src={asoTile} alt="tile" />
             </div>
-            <div className="ASOTile">
+            <div className="ASOTile fadeOnScroll">
               <div className="asoLogo">
                 <img src={asoLogo3} alt="logo" />
               </div>
               <img className="asoTileBackground" src={asoTile} alt="tile" />
             </div>
           </div>
+          <a href="https://cryptopia.com/invest">
+            <button className="longBtn investBtn">Invest Now</button>
+          </a>
         </div>
       </div>
       <div className="backgroundGraphic">

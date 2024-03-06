@@ -13,6 +13,7 @@ import logo from "assets/svg/cryptopiaLogo.svg";
 import logoDark from "assets/svg/cryptopiaLogoDark.svg";
 
 import "styles/landingpage.css";
+import ShipVideo from "components/ShipVideo";
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
@@ -52,6 +53,7 @@ export default function LandingPage() {
       <CryptopiaGame />
       <Gameplay />
       <Cards />
+      <ShipVideo />
       <Footer />
     </>
   );

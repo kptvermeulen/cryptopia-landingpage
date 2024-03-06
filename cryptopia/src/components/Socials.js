@@ -16,7 +16,7 @@ export default function Socials() {
       <div className="maxWidthContainer">
         <div className="tileGrid">
           <div className="socialTile">
-            <div className="sTContent">
+            <div className="sTContent fadeOnScroll">
               <img src={FB} alt="facebook" />
               <div className="STFollowers">
                 <CountUp start={0} end={55} duration={4} suffix="K+"></CountUp>
@@ -26,7 +26,7 @@ export default function Socials() {
             <img className="tileBackground" src={tileA} alt="tile" />
           </div>
           <div className="socialTile">
-            <div className="sTContent">
+            <div className="sTContent fadeOnScroll">
               <img src={Discord} alt="discord" />
               <div className="STFollowers">
                 <CountUp start={0} end={29} duration={4} suffix="K+"></CountUp>
@@ -36,7 +36,7 @@ export default function Socials() {
             <img className="tileBackground" src={tileB} alt="tile" />
           </div>
           <div className="socialTile">
-            <div className="sTContent">
+            <div className="sTContent fadeOnScroll">
               <img src={X} alt="X" />
               <div className="STFollowers">
                 <CountUp start={0} end={11} duration={4} suffix="K+"></CountUp>
@@ -46,7 +46,7 @@ export default function Socials() {
             <img className="tileBackground" src={tileB} alt="tile" />
           </div>
           <div className="socialTile">
-            <div className="sTContent">
+            <div className="sTContent fadeOnScroll">
               <img src={coinMarketCap} alt="CoinMarketCap" />
               <div className="STFollowers">
                 <CountUp start={0} end={55} duration={4} suffix="K+"></CountUp>

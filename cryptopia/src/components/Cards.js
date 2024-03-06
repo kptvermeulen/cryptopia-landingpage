@@ -9,7 +9,7 @@ export default function Cards() {
       <div className="maxWidthContainer">
         <div className="center">
           <div className="cardsContent">
-            <div className="cardsGaphic">
+            <div className="cardsGaphic fadeOnScroll">
               <img src={cardsGraphic} alt="cards cryptopia" />
             </div>
             <p>
